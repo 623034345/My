@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EshopCollectionViewCell" id="gTV-IL-0wX" customClass="EshopCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="130"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-gQ-o3f">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrJ-zQ-w3v">
+                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="cFa-GI-k4k"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="cFa-GI-k4k"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="cFa-GI-k4k"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="FBC-gQ-o3f" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3iP-Nw-GXC"/>
+                <constraint firstAttribute="trailing" secondItem="FBC-gQ-o3f" secondAttribute="trailing" id="4Kb-qJ-90R"/>
+                <constraint firstItem="FBC-gQ-o3f" firstAttribute="leading" secondItem="LrJ-zQ-w3v" secondAttribute="leading" id="7sd-wX-wI5"/>
+                <constraint firstItem="LrJ-zQ-w3v" firstAttribute="top" secondItem="FBC-gQ-o3f" secondAttribute="bottom" constant="1" id="8Gb-ff-GGf"/>
+                <constraint firstAttribute="bottom" secondItem="LrJ-zQ-w3v" secondAttribute="bottom" id="KOq-5q-zt3"/>
+                <constraint firstItem="FBC-gQ-o3f" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="c8N-Nk-XTR"/>
+                <constraint firstItem="FBC-gQ-o3f" firstAttribute="trailing" secondItem="LrJ-zQ-w3v" secondAttribute="trailing" id="faC-vz-1ux"/>
+            </constraints>
+            <size key="customSize" width="100" height="130"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="FBC-gQ-o3f"/>
+                    <exclude reference="LrJ-zQ-w3v"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="8Gb-ff-GGf"/>
+                    <exclude reference="KOq-5q-zt3"/>
+                    <exclude reference="3iP-Nw-GXC"/>
+                    <exclude reference="4Kb-qJ-90R"/>
+                    <exclude reference="7sd-wX-wI5"/>
+                    <exclude reference="c8N-Nk-XTR"/>
+                    <exclude reference="faC-vz-1ux"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="FBC-gQ-o3f"/>
+                    <include reference="LrJ-zQ-w3v"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="8Gb-ff-GGf"/>
+                    <include reference="KOq-5q-zt3"/>
+                    <include reference="3iP-Nw-GXC"/>
+                    <include reference="4Kb-qJ-90R"/>
+                    <include reference="7sd-wX-wI5"/>
+                    <include reference="c8N-Nk-XTR"/>
+                    <include reference="faC-vz-1ux"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="img" destination="FBC-gQ-o3f" id="wBU-1D-Zry"/>
+                <outlet property="lab" destination="LrJ-zQ-w3v" id="AaZ-MI-Bu9"/>
+            </connections>
+            <point key="canvasLocation" x="439" y="311"/>
+        </collectionViewCell>
+    </objects>
+</document>
