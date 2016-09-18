@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GradeTableViewCell" rowHeight="190" id="KGk-i7-Jjw" customClass="GradeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xI-8m-POo">
+                        <rect key="frame" x="81" y="159" width="158" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="ZrP-j1-Owj"/>
+                        </constraints>
+                        <state key="normal" title="金卡会员权益">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ds5-b6-8BC">
+                        <rect key="frame" x="233" y="154" width="87" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="87" id="tve-fy-7NC"/>
+                        </constraints>
+                        <state key="normal" title="升级"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tep-e2-oKV">
+                        <rect key="frame" x="37" y="17" width="246" height="134"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Tep-e2-oKV" firstAttribute="centerX" secondItem="4xI-8m-POo" secondAttribute="centerX" id="3rw-6k-QJQ"/>
+                    <constraint firstItem="4xI-8m-POo" firstAttribute="top" secondItem="Tep-e2-oKV" secondAttribute="bottom" constant="8" symbolic="YES" id="AIb-4Y-mpz"/>
+                    <constraint firstItem="ds5-b6-8BC" firstAttribute="baseline" secondItem="4xI-8m-POo" secondAttribute="firstBaseline" id="IfP-yD-chD"/>
+                    <constraint firstAttribute="trailing" secondItem="ds5-b6-8BC" secondAttribute="trailing" id="MWw-ZF-Bip"/>
+                    <constraint firstItem="4xI-8m-POo" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="RWU-wH-xSj"/>
+                    <constraint firstItem="Tep-e2-oKV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="9" id="Vhm-g6-ovG"/>
+                    <constraint firstItem="Tep-e2-oKV" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="X5O-NF-pV5"/>
+                    <constraint firstItem="4xI-8m-POo" firstAttribute="baseline" secondItem="ds5-b6-8BC" secondAttribute="firstBaseline" id="ZUn-1p-Pfz"/>
+                    <constraint firstItem="ds5-b6-8BC" firstAttribute="top" secondItem="Tep-e2-oKV" secondAttribute="bottom" constant="3" id="d9x-d8-Y0x"/>
+                    <constraint firstItem="Tep-e2-oKV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="29" id="ugw-5d-Ek5"/>
+                    <constraint firstItem="4xI-8m-POo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="73" id="zwa-HB-V3c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cardBtn" destination="4xI-8m-POo" id="Nav-rW-Guy"/>
+                <outlet property="img" destination="Tep-e2-oKV" id="G0H-hu-C92"/>
+                <outlet property="upBtn" destination="ds5-b6-8BC" id="Ma6-4f-0cd"/>
+            </connections>
+            <point key="canvasLocation" x="198" y="179"/>
+        </tableViewCell>
+    </objects>
+</document>

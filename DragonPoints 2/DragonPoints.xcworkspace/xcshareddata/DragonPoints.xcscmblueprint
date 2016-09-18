@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5552731E4DAF4828C50A65014A7B641FD11F259E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "1b0dff4b-f7ae-da48-b1d6-8e46dc871251++3086" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5552731E4DAF4828C50A65014A7B641FD11F259E" : 0,
+    "1b0dff4b-f7ae-da48-b1d6-8e46dc871251++3086" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "08A9667F-42C1-4DE3-B159-8F774D631D57",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5552731E4DAF4828C50A65014A7B641FD11F259E" : "DragonPoints%202\/",
+    "1b0dff4b-f7ae-da48-b1d6-8e46dc871251++3086" : "DragonPoints\/DragonPoints\/Scan\/QRcodeImage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DragonPoints",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DragonPoints.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/121.40.227.8:8080\/svn\/smarthome_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1b0dff4b-f7ae-da48-b1d6-8e46dc871251++3086"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/623034345\/My.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5552731E4DAF4828C50A65014A7B641FD11F259E"
+    }
+  ]
+}
